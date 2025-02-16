@@ -1,0 +1,37 @@
+[18:18:40] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[18:18:40] [main/WARN]: Mod resolution failed
+[18:18:40] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE create 0.5.1-j-build.1631+mc1.20.1 {depends fabric-api @ [>=0.92.2+1.20.1]}, ROOT_FORCELOAD_SINGLE create 0.5.1-j-build.1631+mc1.20.1]
+[18:18:40] [main/INFO]: Reason: [HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends fabric-api @ [>=0.92.2+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_accessors @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_base @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_entity @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_extensions @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_networking @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_obj_loader @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_tags @ [>=3.0]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_transfer @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_models @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends porting_lib_client_events @ [>=2.3.8+1.20.1]}, HARD_DEP create 0.5.1-j-build.1631+mc1.20.1 {depends reach-entity-attributes @ [>=2.4.0]}, HARD_DEP forgeconfigapiport 8.0.0 {depends fabric-api @ [>=0.83.0]}, HARD_DEP milk 1.2.60 {depends fabric @ [>=0.47.8+1.18.2]}, HARD_DEP createdeco 2.0.2-1.20.1-fabric {depends fabric-api @ [>=0.88.1+1.20.1]}, HARD_DEP railways 1.6.9+fabric-mc1.20.1 {depends fabric-api @ [>=0.92.2+1.20.1]}]
+[18:18:40] [main/INFO]: SERVER environment disabled: [sodium, flywheel]
+[18:18:40] [main/INFO]: Fix: add [add:fabric-api 0.92.2+1.20.1 ([[0.92.2+1.20.1,∞)]), add:fabric 0.86.0+1.20.1 ([[0.86.0+1.20.1,∞)])], remove [], replace [[reach-entity-attributes 2.4.0] -> add:reach-entity-attributes 2.4.0 ([[2.4.0,∞)])]
+[18:18:40] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install fabric-api, version 0.92.2+1.20.1 or later.
+	 - Install fabric, version 0.86.0+1.20.1 or later.
+	 - Replace mod 'Reach Entity Attributes' (reach-entity-attributes) 2.4.0 with version 2.4.0 or later that is compatible with:
+		 - Other constraints that can''t be automatically determined
+More details:
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 0.92.2+1.20.1 or later of fabric-api, which is missing!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Accessors' (porting_lib_accessors), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Base' (porting_lib_base), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Entity' (porting_lib_entity), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Extensions' (porting_lib_extensions), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Networking' (porting_lib_networking), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Obj Loader' (porting_lib_obj_loader), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 3.0 or later of mod 'Porting Lib Tags' (porting_lib_tags), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Transfer' (porting_lib_transfer), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Models' (porting_lib_models), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.3.8+1.20.1 or later of mod 'Porting Lib Client Events' (porting_lib_client_events), which can't be loaded due to other constraints!
+	 - Mod 'Create' (create) 0.5.1-j-build.1631+mc1.20.1 requires version 2.4.0 or later of mod 'Reach Entity Attributes' (reach-entity-attributes), which can't be loaded due to other constraints!
+	 - Mod 'Forge Config API Port' (forgeconfigapiport) 8.0.0 requires version 0.83.0 or later of fabric-api, which is missing!
+	 - Mod 'Milk Lib' (milk) 1.2.60 requires version 0.47.8+1.18.2 or later of fabric, which is missing!
+	 - Mod 'Create Deco' (createdeco) 2.0.2-1.20.1-fabric requires version 0.88.1+1.20.1 or later of fabric-api, which is missing!
+	 - Mod 'Create: Steam 'n' Rails' (railways) 1.6.9+fabric-mc1.20.1 requires version 0.92.2+1.20.1 or later of fabric-api, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
